@@ -31,6 +31,13 @@ const Home: NextPage<HomeProps> = ({ allPostsData }: HomeProps) => (
         and while I primarily program in C# and React right now,
         I have lots of experience with picking up new languages and frameworks.
       </p>
+      <p className="pt-4">
+        Find Me On
+        <ul className="list-disc list-inside">
+          <li><Link external href="https://www.linkedin.com/in/alexander-schultz-b4a1ba41/">LinkedIn</Link></li>
+          <li><Link external href="https://github.com/AlexanderSchultz">GitHub</Link></li>
+        </ul>
+      </p>
     </section>
     <section className="text-md pt-1">
       <h2 className="text-l font-bold">Blog</h2>

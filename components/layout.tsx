@@ -12,7 +12,7 @@ interface LayoutProps {
 }
 
 const Layout = ({ children, home }: LayoutProps) => (
-  <div className="container mx-auto px-4 mt-12 mb-24 mx-auto max-w-xl">
+  <div className="container mx-auto px-4 mt-12 mb-24 max-w-xl">
     <Head>
       <link rel="icon" href="/favicon.ico" />
       <meta

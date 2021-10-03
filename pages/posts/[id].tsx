@@ -45,8 +45,8 @@ const Post: NextPage<PostProps> = ({
       <title>{title}</title>
     </Head>
     <article>
-      <h1 className="text-xl">{title}</h1>
-      <div className="text-indigo-300"><Date dateString={date} /></div>
+      <h1 className="text-xl mb-1.5">{title}</h1>
+      <div className="text-indigo-300 mb-2"><Date dateString={date} /></div>
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </article>
   </Layout>
